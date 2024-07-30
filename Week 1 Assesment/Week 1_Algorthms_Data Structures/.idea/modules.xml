@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Inventory_Management_System/Inventory_Management_System.iml" filepath="$PROJECT_DIR$/Inventory_Management_System/Inventory_Management_System.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Week 1_Algorthms_Data Structures.iml" filepath="$PROJECT_DIR$/.idea/Week 1_Algorthms_Data Structures.iml" />
-      <module fileurl="file://$PROJECT_DIR$/code Project/code Project.iml" filepath="$PROJECT_DIR$/code Project/code Project.iml" />
     </modules>
   </component>
 </project>
