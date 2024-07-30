@@ -1,4 +1,4 @@
-package com.example.observer;
+package observerDoc;
 
 public class MobileApp implements Observer {
     private final String name;

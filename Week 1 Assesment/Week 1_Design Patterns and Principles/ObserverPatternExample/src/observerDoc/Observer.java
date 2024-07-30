@@ -1,4 +1,4 @@
-package com.example.observer;
+package observerDoc;
 
 public interface Observer {
     void update(double stockPrice);

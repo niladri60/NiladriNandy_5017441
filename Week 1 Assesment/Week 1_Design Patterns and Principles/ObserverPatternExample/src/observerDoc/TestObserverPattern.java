@@ -1,4 +1,4 @@
-package com.example.observer;
+package observerDoc;
 
 public class TestObserverPattern {
     public static void main(String[] args) {
