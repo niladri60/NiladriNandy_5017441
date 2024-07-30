@@ -37,7 +37,7 @@ HashMap provides efficient average-case performance for all these operations.
 Q2:Discuss how you can optimize these operations.
 
 Ans: Optimizing HashMap operations involves using a good hash function to minimize collisions and maintaining an appropriate load factor to avoid frequent resizing. These practices ensure efficient O(1) average time complexity for add, update, and delete operations.
-
+====================================================================================================
 
 Exercise 2: E-commerce Platform Search Function
 
@@ -74,6 +74,7 @@ Binary search is more efficient than linear search, but requires the dataset to 
 Q2: Discuss which algorithm is more suitable for your platform and why.
 
 Ans: For a platform with large and frequently queried datasets, binary search is more suitable due to its O(log n) time complexity, offering faster searches compared to linear search's O(n). However, binary search requires data to be sorted.
+====================================================================================================
 
 Exercise 3: Sorting Customer Orders
 
@@ -98,6 +99,7 @@ Ans: Quick Sort generally outperforms Bubble Sort due to its O(n log n) average-
 Q2: Discuss why Quick Sort is generally preferred over Bubble Sort.
 
 Ans: Quick Sort is preferred over Bubble Sort because it offers significantly better performance with an average-case time complexity of O(n log n), compared to Bubble Sort's O(n²). Quick Sort efficiently handles large datasets and generally performs faster, whereas Bubble Sort is less efficient and suitable only for small or nearly sorted arrays.
+====================================================================================================
 
 Exercise 4: Employee Management System
 
@@ -120,6 +122,7 @@ Ans: For an array-based employee management system:
 Q2: Discuss the limitations of arrays and when to use them.
 
 Ans: Arrays are limited by their fixed size and costly resizing. They are ideal when the number of elements is known and constant, and when fast, constant-time access to elements is needed. They offer simplicity but can waste memory if not fully utilized.
+====================================================================================================
 
 Exercise 5: Task Management System
 
@@ -160,7 +163,7 @@ Ans:Advantages of Linked Lists over Arrays for Dynamic Data:**
 3.Memory Utilization: Linked lists use memory only as needed for the number of elements, avoiding wasted space unlike arrays which may allocate excess capacity.
 
 4.Flexible Data Management: Linked lists handle varying data sizes and frequent changes more effectively due to their dynamic nature.
-
+====================================================================================================
 
 Exercise 6: Library Management System
 
@@ -185,7 +188,7 @@ Q2: Discuss when to use each algorithm based on the data set size and order.
 Ans: Linear Search: Use for small or unsorted datasets where simplicity is preferred. It works on any list but is inefficient for large lists due to its O(n) time complexity.
 
 Binary Search: Use for large, sorted datasets. It is efficient with O(log n) time complexity but requires the list to be sorted before searching.
-
+====================================================================================================
 
 Exercise 7: Financial Forecasting
 
