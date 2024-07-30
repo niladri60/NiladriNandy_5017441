@@ -1,4 +1,4 @@
-package com.example.logger;
+package loggerExample;
 
 public class Logger {
     private static Logger instance;

@@ -1,4 +1,4 @@
-package com.example.logger;
+package loggerExample;
 
 public class SingletonTest {
     public static void main(String[] args) {
