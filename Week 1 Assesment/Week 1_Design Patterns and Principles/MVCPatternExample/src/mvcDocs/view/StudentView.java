@@ -1,4 +1,4 @@
-package com.example.mvc.view;
+package mvcDocs.view;
 
 public class StudentView {
     public void displayStudentDetails(String studentName, String studentId, String studentGrade) {

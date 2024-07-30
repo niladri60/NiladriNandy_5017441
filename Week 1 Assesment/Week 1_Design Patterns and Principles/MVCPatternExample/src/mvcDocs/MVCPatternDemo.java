@@ -1,12 +1,14 @@
-package com.example.mvc;
+package mvcDocs;
 
-import com.example.mvc.controller.StudentController;
-import com.example.mvc.model.Student;
-import com.example.mvc.view.StudentView;
+import mvcDocs.controller.StudentController;
+import mvcDocs.model.Student;
+import mvcDocs.view.StudentView;
 
 public class MVCPatternDemo {
     public static void main(String[] args) {
+        System.out.println("=======================================");
         // Creating a student object (Model)
+
         Student model = new Student("01", "Niladri Nandy", "A");
 
         // Creating a view to display student details (View)
@@ -24,5 +26,6 @@ public class MVCPatternDemo {
 
         // Display updated student details
         controller.updateView();
+        System.out.println("=======================================");
     }
 }

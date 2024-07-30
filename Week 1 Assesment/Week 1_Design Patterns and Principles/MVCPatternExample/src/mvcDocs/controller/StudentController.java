@@ -1,7 +1,7 @@
-package com.example.mvc.controller;
+package mvcDocs.controller;
 
-import com.example.mvc.model.Student;
-import com.example.mvc.view.StudentView;
+import mvcDocs.model.Student;
+import mvcDocs.view.StudentView;
 
 public class StudentController {
     private final Student model;

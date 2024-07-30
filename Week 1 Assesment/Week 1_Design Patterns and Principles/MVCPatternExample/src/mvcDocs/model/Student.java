@@ -1,4 +1,4 @@
-package com.example.mvc.model;
+package mvcDocs.model;
 
 public class Student {
     private String id;
