@@ -1,4 +1,4 @@
-package com.example.document;
+package factoryDocs.document;
 
 public class PdfDocumentFactory extends DocumentFactory {
     @Override

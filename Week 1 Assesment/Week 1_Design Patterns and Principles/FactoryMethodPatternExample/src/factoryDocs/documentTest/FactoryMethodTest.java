@@ -1,6 +1,5 @@
-package com.example.documentTest;
-
-import com.example.document.*;
+package factoryDocs.documentTest;
+import factoryDocs.document.*;
 
 public class FactoryMethodTest {
     public static void main(String[] args) {
