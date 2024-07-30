@@ -1,4 +1,4 @@
-package com.example.proxy;
+package proxyPattern;
 
 public interface Image {
     void display();
