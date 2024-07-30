@@ -1,4 +1,5 @@
-package inventoryDocs;
+import inventoryDocs.Inventory;
+import inventoryDocs.Product;
 
 public class Inventory_Management_Test {
     public static void main(String[] args) {
