@@ -1,4 +1,4 @@
-package com.example.adapter;
+package adapterPattern;
 
 class StripeAdapter implements PaymentProcessor {
     private final Stripe stripe;

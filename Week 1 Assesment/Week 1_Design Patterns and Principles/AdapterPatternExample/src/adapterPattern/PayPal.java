@@ -1,4 +1,4 @@
-package com.example.adapter;
+package adapterPattern;
 
 public class PayPal {
     public void makePayment(double amount) {

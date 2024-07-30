@@ -1,4 +1,4 @@
-package com.example.adapter;
+package adapterPattern;
 
 class PayPalAdapter implements PaymentProcessor {
     private final PayPal paypal;

@@ -1,4 +1,4 @@
-package com.example.adapter;
+package adapterPattern;
 
 public interface PaymentProcessor {
     void processPayment(double amount);

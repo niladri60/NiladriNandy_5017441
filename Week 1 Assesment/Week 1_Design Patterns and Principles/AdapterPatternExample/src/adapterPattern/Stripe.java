@@ -1,4 +1,4 @@
-package com.example.adapter;
+package adapterPattern;
 
 public class Stripe {
     public void chargePayment(double amount) {
