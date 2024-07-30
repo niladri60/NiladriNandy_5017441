@@ -1,4 +1,4 @@
-package com.example.command;
+package commandDocs;
 
 public interface Command {
     void execute();

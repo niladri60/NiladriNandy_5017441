@@ -1,4 +1,4 @@
-package com.example.command;
+package commandDocs;
 
 public class LightOffCommand implements Command {
     private Light light;
