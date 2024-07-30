@@ -1,4 +1,4 @@
-package com.example.payment;
+package paymentDocs;
 
 public class CreditCardPayment implements PaymentStrategy {
     private final String cardHolderName;

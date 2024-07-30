@@ -1,4 +1,4 @@
-package com.example.payment;
+package paymentDocs;
 
 public class PayPalPayment implements PaymentStrategy {
     private final String email;

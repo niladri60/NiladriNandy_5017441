@@ -1,4 +1,4 @@
-package com.example.payment;
+package paymentDocs;
 
 public class PaymentSystemTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.payment;
+package paymentDocs;
 
 public class PaymentContext {
     private PaymentStrategy paymentStrategy;
