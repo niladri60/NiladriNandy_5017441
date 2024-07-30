@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ecommerce_Platform_Search_Function/Ecommerce_Platform_Search_Function.iml" filepath="$PROJECT_DIR$/Ecommerce_Platform_Search_Function/Ecommerce_Platform_Search_Function.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inventory_Management_System/Inventory_Management_System.iml" filepath="$PROJECT_DIR$/Inventory_Management_System/Inventory_Management_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting_Customer_Orders/Sorting_Customer_Orders.iml" filepath="$PROJECT_DIR$/Sorting_Customer_Orders/Sorting_Customer_Orders.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week 1_Algorthms_Data Structures.iml" filepath="$PROJECT_DIR$/Week 1_Algorthms_Data Structures.iml" />
     </modules>
   </component>
