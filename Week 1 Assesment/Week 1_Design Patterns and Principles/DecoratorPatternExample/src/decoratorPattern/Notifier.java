@@ -1,4 +1,4 @@
-package com.example.decorator;
+package decoratorPattern;
 
 public interface Notifier {
     void send(String message);

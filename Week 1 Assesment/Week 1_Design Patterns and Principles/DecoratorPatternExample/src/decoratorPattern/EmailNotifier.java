@@ -1,4 +1,4 @@
-package com.example.decorator;
+package decoratorPattern;
 
 public class EmailNotifier implements Notifier {
     @Override

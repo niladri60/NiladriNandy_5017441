@@ -1,4 +1,4 @@
-package com.example.decorator;
+package decoratorPattern;
 
 public class SMSNotifierDecorator extends NotifierDecorator {
     public SMSNotifierDecorator(Notifier notifier) {

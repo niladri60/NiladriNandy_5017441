@@ -1,4 +1,4 @@
-package com.example.decorator;
+package decoratorPattern;
 
 public class SlackNotifierDecorator extends NotifierDecorator {
     public SlackNotifierDecorator(Notifier notifier) {
