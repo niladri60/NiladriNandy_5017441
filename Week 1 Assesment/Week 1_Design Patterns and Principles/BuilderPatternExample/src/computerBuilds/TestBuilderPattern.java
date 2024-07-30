@@ -1,4 +1,4 @@
-package com.example.computerBuild;
+package computerBuilds;
 
 public class TestBuilderPattern {
     public static void main(String[] args) {
