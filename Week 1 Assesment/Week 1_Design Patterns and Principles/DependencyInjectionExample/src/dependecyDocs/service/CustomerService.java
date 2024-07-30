@@ -1,7 +1,7 @@
-package com.example.service;
+package dependecyDocs.service;
 
-import com.example.customer.Customer;
-import com.example.customer.CustomerRepository;
+import dependecyDocs.customer.Customer;
+import dependecyDocs.customer.CustomerRepository;
 
 public class CustomerService {
     private final CustomerRepository customerRepository;

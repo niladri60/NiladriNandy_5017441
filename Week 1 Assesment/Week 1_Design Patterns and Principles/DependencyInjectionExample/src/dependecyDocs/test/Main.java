@@ -1,9 +1,9 @@
-package com.example.test;
+package dependecyDocs.test;
 
-import com.example.customer.Customer;
-import com.example.customer.CustomerRepository;
-import com.example.customer.CustomerRepositoryImpl;
-import com.example.service.CustomerService;
+import dependecyDocs.customer.Customer;
+import dependecyDocs.customer.CustomerRepository;
+import dependecyDocs.customer.CustomerRepositoryImpl;
+import dependecyDocs.service.CustomerService;
 
 public class Main {
     public static void main(String[] args) {

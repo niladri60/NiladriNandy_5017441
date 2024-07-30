@@ -1,4 +1,4 @@
-package com.example.customer;
+package dependecyDocs.customer;
 
 public class CustomerRepositoryImpl implements CustomerRepository{
     @Override

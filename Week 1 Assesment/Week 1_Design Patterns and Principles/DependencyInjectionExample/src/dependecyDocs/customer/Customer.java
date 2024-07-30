@@ -1,4 +1,4 @@
-package com.example.customer;
+package dependecyDocs.customer;
 
 public record Customer(int id, String name) {
 }
