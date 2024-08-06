@@ -1,19 +1,27 @@
 package com.library.aspect;
 
-import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.After;
+import org.springframework.stereotype.Component;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 @Aspect
+@Component
 public class LoggingAspect {
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+    String formattedDateTime = LocalDateTime.now().format(formatter);
 
-    @Around("execution(* com.library.service.BookService.*(..))")
-    public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
-        long start = System.currentTimeMillis();
-        Object proceed = joinPoint.proceed();
-        long executionTime = System.currentTimeMillis() - start;
+    @Before("execution(* com.library.service.*.*(..))")
+    public void logBefore(JoinPoint joinPoint) {
+        System.out.println("Entering method: " + joinPoint.getSignature().getName() + " at " + formattedDateTime);
+    }
 
-        System.out.println(joinPoint.getSignature() + " executed in " + executionTime + "ms");
-        return proceed;
+    @After("execution(* com.library.service.*.*(..))")
+    public void logAfter(JoinPoint joinPoint) {
+        System.out.println("Exiting method: " + joinPoint.getSignature().getName() + " at " + formattedDateTime);
     }
 }

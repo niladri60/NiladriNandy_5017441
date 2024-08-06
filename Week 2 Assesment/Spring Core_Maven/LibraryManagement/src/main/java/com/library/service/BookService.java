@@ -5,11 +5,12 @@ import com.library.repository.BookRepository;
 public class BookService {
     private BookRepository bookRepository;
 
-    public void setBookRepository(BookRepository bookRepository) {
-        this.bookRepository = bookRepository;
+    public BookService() {
+        this.bookRepository = new BookRepository();
     }
 
-    public void manageBooks() {
-        System.out.println("Managing books...");
+    public void performService() {
+        System.out.println("Service performed.");
+        bookRepository.performRepositoryAction();
     }
 }

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ca9808c-c444-478b-8825-c3c54d4c2259" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LibraryManagement_4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManagement_4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManagement_4/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LibraryManagement_4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="74cdd194-8df8-4d16-beb3-36ad9c6bdc15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,40 +17,49 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2kFTV9LiHg9Q32gavj7sBZd9TvL" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2k39EvPK54T3cRs8Qg2vON2x1yg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryManagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;Spring Boot.LibraryManagementApplication.executor&quot;: &quot;Run&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/jar_files.zip&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Ahana/Computer/iepssols/bimpai-api&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="LibraryManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="LibraryManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.librarymanagement.LibraryManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,14 +71,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0ca9808c-c444-478b-8825-c3c54d4c2259" name="Changes" comment="" />
-      <created>1722878345627</created>
+      <changelist id="74cdd194-8df8-4d16-beb3-36ad9c6bdc15" name="Changes" comment="" />
+      <created>1722501288483</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722878345627</updated>
-      <workItem from="1722878346660" duration="1788000" />
-      <workItem from="1722884604151" duration="192000" />
-      <workItem from="1722884800001" duration="13000" />
+      <updated>1722501288483</updated>
+      <workItem from="1722501289644" duration="3417000" />
+      <workItem from="1722681351977" duration="55000" />
+      <workItem from="1722701799452" duration="1554000" />
+      <workItem from="1722703651379" duration="26000" />
+      <workItem from="1722704270665" duration="123000" />
+      <workItem from="1722704767348" duration="902000" />
+      <workItem from="1722705754428" duration="761000" />
+      <workItem from="1722706853585" duration="451000" />
+      <workItem from="1722709090869" duration="38000" />
+      <workItem from="1722709294185" duration="132000" />
     </task>
     <servers />
   </component>
