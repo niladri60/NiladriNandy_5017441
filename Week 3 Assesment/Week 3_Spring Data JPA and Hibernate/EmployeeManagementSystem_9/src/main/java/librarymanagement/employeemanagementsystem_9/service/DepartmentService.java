@@ -1,7 +1,7 @@
-package librarymanagement.employeemanagementsystem_8.service;
+package librarymanagement.employeemanagementsystem_9.service;
 
-import librarymanagement.employeemanagementsystem_8.entity.Department;
-import librarymanagement.employeemanagementsystem_8.repository.DepartmentRepository;
+import librarymanagement.employeemanagementsystem_9.entity.Department;
+import librarymanagement.employeemanagementsystem_9.repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

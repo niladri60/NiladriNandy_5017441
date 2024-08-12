@@ -1,7 +1,7 @@
-package librarymanagement.employeemanagementsystem_8.controller;
+package librarymanagement.employeemanagementsystem_9.controller;
 
-import librarymanagement.employeemanagementsystem_8.entity.Department;
-import librarymanagement.employeemanagementsystem_8.service.DepartmentService;
+import librarymanagement.employeemanagementsystem_9.entity.Department;
+import librarymanagement.employeemanagementsystem_9.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

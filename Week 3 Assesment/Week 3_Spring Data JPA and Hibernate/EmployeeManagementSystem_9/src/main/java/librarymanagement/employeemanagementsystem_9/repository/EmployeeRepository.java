@@ -1,8 +1,8 @@
-package librarymanagement.employeemanagementsystem_8.repository;
+package librarymanagement.employeemanagementsystem_9.repository;
 
-import librarymanagement.employeemanagementsystem_8.dto.EmployeeNameAndEmailDto;
-import librarymanagement.employeemanagementsystem_8.entity.Employee;
-import librarymanagement.employeemanagementsystem_8.projection.EmployeeNameAndEmailProjection;
+import librarymanagement.employeemanagementsystem_9.dto.EmployeeNameAndEmailDto;
+import librarymanagement.employeemanagementsystem_9.entity.Employee;
+import librarymanagement.employeemanagementsystem_9.projection.EmployeeNameAndEmailProjection;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -42,7 +42,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long> {
     // Projection for finding employees by department ID
     List<EmployeeNameAndEmailProjection> findProjectedByDepartmentId(Long departmentId);
 
-    @Query("SELECT new librarymanagement.employeemanagementsystem_8.dto.EmployeeNameAndEmailDto(e.name, e.email) " +
+    @Query("SELECT new librarymanagement.employeemanagementsystem_9.dto.EmployeeNameAndEmailDto(e.name, e.email) " +
             "FROM Employee e WHERE e.department.id = :departmentId")
     List<EmployeeNameAndEmailDto> findEmployeeNameAndEmailByDepartmentId(@Param("departmentId") Long departmentId);
 

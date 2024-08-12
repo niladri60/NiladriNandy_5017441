@@ -1,6 +1,6 @@
-package librarymanagement.employeemanagementsystem_8.repository;
+package librarymanagement.employeemanagementsystem_9.repository;
 
-import librarymanagement.employeemanagementsystem_8.entity.Department;
+import librarymanagement.employeemanagementsystem_9.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
