@@ -1,9 +1,10 @@
-package bookstore.bookstoreapi_7.controller;
+package bookstore.bookstoreapi_8.controller;
 
-import bookstore.bookstoreapi_7.dto.BookDTO;
-import bookstore.bookstoreapi_7.exception.ResourceNotFoundException;
-import bookstore.bookstoreapi_7.mapper.BookMapper;
-import bookstore.bookstoreapi_7.model.Book;
+import bookstore.bookstoreapi_8.dto.BookDTO;
+import bookstore.bookstoreapi_8.exception.ResourceNotFoundException;
+import bookstore.bookstoreapi_8.mapper.BookMapper;
+import bookstore.bookstoreapi_8.model.Book;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -45,14 +46,14 @@ public class BookController {
     // POST /books - Add a new book
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Book addBook(@RequestBody Book book) {
+    public Book addBook(@Valid @RequestBody Book book) {
         books.add(book);
         return book;
     }
 
     // PUT /books/{id} - Update an existing book
     @PutMapping("/{id}")
-    public Book updateBook(@PathVariable Long id, @RequestBody Book updatedBook) {
+    public Book updateBook(@PathVariable Long id, @Valid @RequestBody Book updatedBook) {
         books.stream()
                 .filter(book -> book.getId().equals(id))
                 .findFirst()
@@ -64,7 +65,15 @@ public class BookController {
                 });
         return updatedBook;
     }
-    
+
+    @PostMapping
+    public BookDTO createBook(@RequestBody BookDTO bookDTO) {
+        Book book = BookMapper.INSTANCE.toEntity(bookDTO);
+        books.add(book);
+        return BookMapper.INSTANCE.toDTO(book);
+    }
+
+
     // DELETE /books/{id} - Delete a book by ID
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
