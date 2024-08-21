@@ -1,6 +1,6 @@
-package bookstore.bookstoreapi_11.controller;
+package bookstore.bookstoreapi_12.controller;
 
-import bookstore.bookstoreapi_11.model.Customer;
+import bookstore.bookstoreapi_12.model.Customer;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

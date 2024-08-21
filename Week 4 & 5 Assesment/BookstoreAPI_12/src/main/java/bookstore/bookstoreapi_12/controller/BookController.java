@@ -1,7 +1,7 @@
-package bookstore.bookstoreapi_11.controller;
+package bookstore.bookstoreapi_12.controller;
 
-import bookstore.bookstoreapi_11.metrics.CustomMetrics;
-import bookstore.bookstoreapi_11.model.Book;
+import bookstore.bookstoreapi_12.metrics.CustomMetrics;
+import bookstore.bookstoreapi_12.model.Book;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

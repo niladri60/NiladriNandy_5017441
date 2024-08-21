@@ -1,4 +1,4 @@
-package bookstore.bookstoreapi_11.metrics;
+package bookstore.bookstoreapi_12.metrics;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.stereotype.Component;

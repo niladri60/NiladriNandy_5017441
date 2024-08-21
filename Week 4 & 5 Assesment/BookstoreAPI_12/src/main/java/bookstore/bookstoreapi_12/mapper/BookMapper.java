@@ -1,7 +1,7 @@
-package bookstore.bookstoreapi_11.mapper;
+package bookstore.bookstoreapi_12.mapper;
 
-import bookstore.bookstoreapi_11.dto.BookDTO;
-import bookstore.bookstoreapi_11.model.Book;
+import bookstore.bookstoreapi_12.dto.BookDTO;
+import bookstore.bookstoreapi_12.model.Book;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

@@ -1,4 +1,4 @@
-package bookstore.bookstoreapi_11.exception;
+package bookstore.bookstoreapi_12.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

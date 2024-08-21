@@ -1,4 +1,4 @@
-package bookstore.bookstoreapi_11.model;
+package bookstore.bookstoreapi_12.model;
 
 import jakarta.persistence.Version;
 import jakarta.validation.constraints.Email;

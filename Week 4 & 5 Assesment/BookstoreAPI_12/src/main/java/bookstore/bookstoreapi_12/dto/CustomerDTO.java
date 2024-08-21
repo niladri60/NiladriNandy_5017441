@@ -1,4 +1,4 @@
-package bookstore.bookstoreapi_11.dto;
+package bookstore.bookstoreapi_12.dto;
 
 public class CustomerDTO {
     private Long id;
