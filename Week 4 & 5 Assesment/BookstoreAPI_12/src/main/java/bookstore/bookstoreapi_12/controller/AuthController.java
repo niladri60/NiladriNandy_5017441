@@ -2,13 +2,16 @@ package bookstore.bookstoreapi_12.controller;
 
 import bookstore.bookstoreapi_12.security.JwtUtil;
 import bookstore.bookstoreapi_12.security.UserDetailsServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+@RequestMapping("/auth")
 @RestController
 public class AuthController {
 
@@ -16,6 +19,7 @@ public class AuthController {
     private final JwtUtil jwtUtil;
     public UserDetailsServiceImpl userDetailsService;
 
+    @Autowired
     public AuthController(AuthenticationManager authenticationManager, JwtUtil jwtUtil) {
         this.authenticationManager = authenticationManager;
         this.jwtUtil = jwtUtil;
