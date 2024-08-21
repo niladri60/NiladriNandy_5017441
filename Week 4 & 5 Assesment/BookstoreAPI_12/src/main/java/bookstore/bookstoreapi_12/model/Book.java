@@ -1,12 +1,14 @@
 package bookstore.bookstoreapi_12.model;
 
-import jakarta.persistence.Version;
+
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.springframework.hateoas.RepresentationModel;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 public class Book extends RepresentationModel<Book> {
     private Long id;
@@ -25,9 +27,6 @@ public class Book extends RepresentationModel<Book> {
     @NotNull
     @Size(min = 10, max = 13)
     private String isbn;
-
-    @Version
-    private int version;
 
     // Constructor, getters, and setters
 

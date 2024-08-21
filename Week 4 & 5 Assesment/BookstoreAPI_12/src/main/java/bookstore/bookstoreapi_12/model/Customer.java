@@ -1,26 +1,29 @@
 package bookstore.bookstoreapi_12.model;
 
-import jakarta.persistence.Version;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
 public class Customer {
-    private Long id;
+    public Long id;
+    @Setter
     @NotNull
     @Size(min = 1, max = 255)
     private String name;
 
+    @Setter
     @NotNull
     @Email
     private String email;
 
+    @Setter
     @NotNull
     @Size(min = 1, max = 255)
     private String address;
 
-    @Version
-    private int version;
     // Constructor, getters, and setters
 
     public Customer() {}
@@ -31,31 +34,4 @@ public class Customer {
         this.address = address;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public Long getId() {
-        return id;
-    }
 }
