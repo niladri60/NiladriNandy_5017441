@@ -2,6 +2,8 @@ package bookstore.bookstoreapi_15.controller;
 
 import bookstore.bookstoreapi_15.metrics.CustomMetrics;
 import bookstore.bookstoreapi_15.model.Book;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -12,6 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/books")
+@Tag(name = "Book API", description = "Operations related to books")
 public class BookController {
 
     private final List<Book> books = new ArrayList<>();
@@ -23,6 +26,7 @@ public class BookController {
     }
 
     // GET /books - Get all books
+    @Operation(summary = "Get all books", description = "Retrieve a list of all books")
     @GetMapping(produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public List<Book> getAllBooks() {
         customMetrics.trackBookCall();
@@ -31,6 +35,7 @@ public class BookController {
 
 
     // GET /books/{id} - Get book by ID in JSON or XML
+    @Operation(summary = "Get a book by ID", description = "Retrieve a book by its ID")
     @GetMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public Book getBookById(@PathVariable Long id) {
         customMetrics.trackBookCall();
@@ -41,6 +46,7 @@ public class BookController {
     }
 
     // GET /books/search - Search books by title and/or author
+    @Operation(summary = "Search books", description = "Search for books by title and/or author")
     @GetMapping("/search")
     public List<Book> searchBooks(@RequestParam(required = false) String title,
                                   @RequestParam(required = false) String author) {
@@ -51,6 +57,7 @@ public class BookController {
     }
 
     // POST /books - Add a new book in JSON or XML
+    @Operation(summary = "Add a new book", description = "Create a new book record")
     @PostMapping(consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     @ResponseStatus(HttpStatus.CREATED)
     public Book addBook(@Valid @RequestBody Book book) {
@@ -60,6 +67,7 @@ public class BookController {
     }
 
     // PUT /books/{id} - Update an existing book
+    @Operation(summary = "Update a book", description = "Update an existing book record")
     @PutMapping("/{id}")
     public Book updateBook(@PathVariable Long id, @Valid @RequestBody Book updatedBook) {
         books.stream()
@@ -75,6 +83,7 @@ public class BookController {
     }
     
     // DELETE /books/{id} - Delete a book by ID
+    @Operation(summary = "Delete a book", description = "Remove a book record by ID")
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteBook(@PathVariable Long id) {
